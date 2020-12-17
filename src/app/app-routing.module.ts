@@ -4,10 +4,6 @@ import {TabsPage} from "./tabs/tabs.page";
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
     path: '',
     redirectTo: '/login',
     pathMatch: 'full'
